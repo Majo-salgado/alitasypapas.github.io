@@ -11,6 +11,8 @@ echo <<<_INIT
       <link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">        
       <link rel='stylesheet' href='styles.css' type='text/css'>    
       <script src='javascript.js'></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 _INIT;
     require_once 'functions.php';
   

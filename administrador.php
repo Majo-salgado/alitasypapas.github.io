@@ -16,13 +16,13 @@
             <div data-role='content'>
 
 <div class='center'>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
+            <a  class="button is-black" role="button" aria-pressed="true" class="button is-black" data-inline='true' data-icon='inicio'
             data-transition='slide' href='index.php'>Inicio</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
+            <a  class="button is-black" role="button" aria-pressed="true" class="button is-black" data-inline='true' data-icon='inicio'
             data-transition='slide' href='menu.php'>Menu</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='plus'
+            <a  class="button is-black" role="button" aria-pressed="true" class="button is-black" data-inline='true' data-icon='plus'
             data-transition="slide" href='administrador.php'>Administrador</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='check'
+            <a class="button is-black" role="button" aria-pressed="true" class="button is-black" data-inline='true' data-icon='check'
             data-transition="slide" href='pedido.php'>Realizar pedido</a>
             <br>
             <br>
