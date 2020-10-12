@@ -13,6 +13,6 @@
     <br>
     <center><h1> DE CLCIK EN EL BOTON PARA REGRESAR A LA PAGINA PRINCIPAL</h1></center>
     <br>
-    <center><a class="btn btn-dark" href="index.php" role="button">PAGINA PRINCIPAL</a></center>
+    <center><a class="button is-dark" href="index.php" role="button">PAGINA PRINCIPAL</a></center>
 </body>
 </html>

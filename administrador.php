@@ -10,19 +10,19 @@
 <div data-role='page'>
             <center><div data-role='header'>
                 <div id='logo' class='center'>
-                <h1 class="display-1 text-success">Alitas y papas</h1>
+                <h1 class="title is-$green">Alitas y papas</h1>
                 <div class= 'username'></div>
             </div>
             <div data-role='content'>
 
 <div class='center'>
-            <a  class="button is-black" role="button" aria-pressed="true" class="button is-black" data-inline='true' data-icon='inicio'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
             data-transition='slide' href='index.php'>Inicio</a>
-            <a  class="button is-black" role="button" aria-pressed="true" class="button is-black" data-inline='true' data-icon='inicio'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
             data-transition='slide' href='menu.php'>Menu</a>
-            <a  class="button is-black" role="button" aria-pressed="true" class="button is-black" data-inline='true' data-icon='plus'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='plus'
             data-transition="slide" href='administrador.php'>Administrador</a>
-            <a class="button is-black" role="button" aria-pressed="true" class="button is-black" data-inline='true' data-icon='check'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='check'
             data-transition="slide" href='pedido.php'>Realizar pedido</a>
             <br>
             <br>
@@ -36,24 +36,24 @@
     <form class="form-horizontal" method="post" action="BDD PEDIDO.php">
     <fieldset>
     <br>
-    <center><h1><p class="text-warning">INICIO DE SESION ADMINISTRADOR</p></h1></center>
+    <center><h1><p class="title is-$blue">INICIO DE SESION ADMINISTRADOR</p></h1></center>
     <br>
 
     <div class="form-group">
     <center><div class="col-md-4">
-    <input id="nombre" name="nombre" type="text" placeholder="Nombre del usuario" class="form-control"> 
+    <input id="nombre" name="nombre" type="text" placeholder="Nombre del usuario" class="control">
     </div></center>
     </div>
 
     <div class="form-group">
     <center><div class="col-md-4">
-    <input id="pedido" name="pedido" type="text" placeholder="Contraseña" class="form-control"> 
+    <input id="pedido" name="pedido" type="text" placeholder="Contraseña" class="control">
     </div></center>
     </div>
 
     <div class="form-group">
     <div class="col-md-12 text-center">
-    <a class="btn btn-dark" href="inicio sesion correcto.php" role="button">INICIAR SESION</a>
+    <a class="button is-dark" href="inicio sesion correcto.php" role="button">INICIAR SESION</a>
     </div>
     </div>
     </fieldset>

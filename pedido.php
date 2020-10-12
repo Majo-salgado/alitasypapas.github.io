@@ -10,19 +10,19 @@
 <div data-role='page'>
             <center><div data-role='header'>
                 <div id='logo' class='center'>
-                <h1 class="display-1 text-primary text-danger">Alitas y papas</h1>
+                <h1 class="title is-$red">Alitas y papas</h1>
                 <div class= 'username'></div>
             </div>
             <div data-role='content'>
 
 <div class='center'>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
             data-transition='slide' href='index.php'>Inicio</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
             data-transition='slide' href='menu.php'>Menu</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='plus'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='plus'
             data-transition="slide" href='administrador.php'>Administrador</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='check'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='check'
             data-transition="slide" href='pedido.php'>Realizar pedido</a>
             <br>
             <br>
@@ -37,25 +37,25 @@
     <form class="form-horizontal" method="post" action="BDD PERSONA.php">
     <fieldset>
     <br>
-    <center><h1><p class="text-warning">ESCRIBA SU INFORMACION PARA TENER SEGURIDAD EN EL PEDIDO</p></h1></center>
+    <center><h1><p class="title is-$yellow">ESCRIBA SU INFORMACION PARA TENER SEGURIDAD EN EL PEDIDO</p></h1></center>
     <br>
 
     <div class="form-group">
     <center><div class="col-md-4">
-    <input id="nombre" name="nombre" type="text" placeholder="Nombre del usuario" class="form-control"> 
+    <input id="nombre" name="nombre" type="text" placeholder="Nombre del usuario" class="field" class="control"> 
     </div></center>
     </div>
 
     <div class="form-group">
     <center><div class="col-md-4">
-    <input id="numero" name="numero" type="text" placeholder="Numero telefonico" class="form-control"> 
+    <input id="numero" name="numero" type="text" placeholder="Numero telefonico" class="field" class="control"> 
     </div></center>
     </div>
 
 
     <div class="form-group">
     <div class="col-md-12 text-center">
-    <button type="submit" class="btn btn-dark">ENVIAR</button>
+    <button type="submit" class="button is-dark">ENVIAR</button>
     </div>
     </div>
     </fieldset>
@@ -73,31 +73,31 @@
     <form class="form-horizontal" method="post" action="BDD PEDIDO.php">
     <fieldset>
     <br>
-    <center><h1><p class="text-warning">PEDIDO</p></h1></center>
+    <center><h1><p class="title is-$yellow">PEDIDO</p></h1></center>
     <br>
 
     <div class="form-group">
     <center><div class="col-md-4">
-    <input id="nombre" name="nombre" type="text" placeholder="Nombre del usuario" class="form-control"> 
+    <input id="nombre" name="nombre" type="text" placeholder="Nombre del usuario" class="field" class="control">
     </div></center>
     </div>
 
     <div class="form-group">
     <center><div class="col-md-4">
-    <input id="pedido" name="pedido" type="text" placeholder="Pedido" class="form-control"> 
+    <input id="pedido" name="pedido" type="text" placeholder="Pedido" class="field" class="control"> 
     </div></center>
     </div>
 
     <div class="form-group">
     <center><div class="col-md-4">
-    <input id="direccion" name="direccion" type="text" placeholder="Direccion del usuario" class="form-control"> 
+    <input id="direccion" name="direccion" type="text" placeholder="Direccion del usuario" class="field" class="control"> 
     </div></center>
     </div>
     <br>
 
     <div class="form-group">
     <div class="col-md-12 text-center">
-    <button type="submit" class="btn btn-dark">ENVIAR</button>
+    <button type="submit" class="button is-dark">ENVIAR</button>
     </div>
     </div>
     </fieldset>

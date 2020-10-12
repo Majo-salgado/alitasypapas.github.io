@@ -12,7 +12,7 @@ echo <<<_INIT
       <link rel='stylesheet' href='styles.css' type='text/css'>    
       <script src='javascript.js'></script>
       <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+      
 _INIT;
     require_once 'functions.php';
   
@@ -30,7 +30,7 @@ echo <<<_MAIN
     <center><div data-role='page'>
             <div data-role='header'>
                 <div id='logo' class='center'>
-                <h1 class="display-1 text-info">Alitas y papas</h1>
+                <h1 class="title is-1">Alitas y papas</h1>
                 <div class= 'username'></div>
             </div>
             <div data-role='content'></center>
@@ -38,19 +38,19 @@ _MAIN;
     if ($loggedin) {
 echo <<<_LOGGEDIN
         <div class='center'>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" data-inline='true' data icon='inicio'
+            <a  class="button is-dark" role="button" aria-pressed="true" data-inline='true' data icon='inicio'
             data-transition="slide"
             href='members.php?view='>Inicio</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" data-inline='true' data icon='user'
+            <a  class="button is-dark" role="button" aria-pressed="true" data-inline='true' data icon='user'
             data-transition="slide" href='members.php'>Miembros</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" data-inline='true' data icon='heart'
+            <a  class="button is-dark" role="button" aria-pressed="true" data-inline='true' data icon='heart'
             data-transition="slide" href='friends.php'>Amigos</a><br>
             <br>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" data-inline='true' data icon='mail'
+            <a class="button is-dark" role="button" aria-pressed="true" data-inline='true' data icon='mail'
             data-transition="slide" href='messages.php'>Mensajes</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" data-inline='true' data-icon='edit'
+            <a  class="button is-dark" role="button" aria-pressed="true" data-inline='true' data-icon='edit'
             data-transition="slide" href='profile.php'>Editar Perfil</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" data-inline='true' data-icon='action'
+            <a  class="button is-dark" role="button" aria-pressed="true" data-inline='true' data-icon='action'
             data-transition="slide" href='logout.php'>Salir de la sesion</a>
         </div>
 _LOGGEDIN;
@@ -58,13 +58,13 @@ _LOGGEDIN;
     else {
 echo <<<_GUEST
         <div class='center'>
-            <center><a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
+            <center><a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
             data-transition='slide' href='index.php'>Inicio</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='inicio'
             data-transition='slide' href='menu.php'>Menu</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='plus'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='plus'
             data-transition="slide" href='administrador.php'>Administrador</a>
-            <a  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='check'
+            <a  class="button is-dark" role="button" aria-pressed="true" class="btn btn-dark" data-inline='true' data-icon='check'
             data-transition="slide" href='pedido.php'>Realizar pedido</a>
             <br>
             <br>

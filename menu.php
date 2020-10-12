@@ -20,10 +20,10 @@ require_once 'header.php';
 
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4" >
-    <div  class="card text-white bg-dark mb-3" width="500px" heigth="500px">
+    <div  class="card-image-$black" width="500px" heigth="500px">
       <img src="wings.jpg" heigth="500px"   alt="...">
       <div class="card-body"  width="500px" heigth="500px">
-        <h5 class="card-title">ALITAS</h5>
+        <h5 class="card-image">ALITAS</h5>
         <p class="card-text">
         (1 orden(40 alitas) $110    1/2 orden(20 alitas) $55)
         <br>
@@ -52,7 +52,7 @@ require_once 'header.php';
     </div>
   </div>
   <div class="col mb-4">
-  <div  class="card text-white bg-dark mb-3">
+  <div  class="card-image-$black">
       <img src="papas.jpg"   alt="...">
       <div class="card-body">
         <h5 class="card-title">PAPAS</h5>
@@ -73,7 +73,7 @@ require_once 'header.php';
     </div>
   </div>
   <div class="col mb-4">
-  <div  class="card text-white bg-dark mb-3">
+  <div  class="card-image-$black">
       <img src="bebidas.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">BEBIDAS</h5>
@@ -90,7 +90,7 @@ require_once 'header.php';
     </div>
   </div>
   <div class="col mb-4">
-  <div  class="card text-white bg-dark mb-3">
+  <div  class="card-image-$black">
       <img src="combos.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">COMBOS</h5>
