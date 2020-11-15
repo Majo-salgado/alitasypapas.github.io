@@ -1,11 +1,20 @@
 <?php // Example 26-1: functions.php
-  $dbhost  = 'localhost';    // Unlikely to require changing
-  $dbname  = 'alitas y papas';   // Modify these...
+  /*$dbhost  = 'localhost';    // Unlikely to require changing
+  $dbname  = 'alitasypapas';   // Modify these...
   $dbuser  = 'root';   // ...variables according
-  $dbpass  = '';   // ...to your installation
+  $dbpass  = 'bautista1996';   // ...to your installation
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
-  if ($connection->connect_error) die("Fatal Error");
+  if ($connection->connect_error) die("Fatal Error");*/
+$host="localhost";
+$port=3306;
+$socket="";
+$user="root";
+$password="bautista1996";
+$dbname="alitasypapas";
+
+$connection = new mysqli($host, $user, $password, $dbname, $port, $socket)
+	or die ('Could not connect to the database server' . mysqli_connect_error());
 
   function createTable($name, $query)
   {

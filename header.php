@@ -7,11 +7,11 @@ echo <<<_INIT
       <meta charset='utf-8'>
       <meta name='viewport' content='width=device-width, initial-scale=1'>                 
       <script src='node_modules/jquery/dist/jquery.min.js'></script>
-      <script src='node_modules/jquery-mobile/js/jquery.mobile.js'></script>
-      <link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">        
-      <link rel='stylesheet' href='styles.css' type='text/css'>    
+      <script src='node_modules/jquery-mobile/js/jquery.mobile.js'></script>      
+      <link rel='stylesheet' href='node_modules\bulma\css\bulma.min.css' type='text/css'>  
       <script src='javascript.js'></script>
       <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+      
       
 _INIT;
     require_once 'functions.php';
