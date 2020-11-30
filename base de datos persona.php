@@ -7,6 +7,7 @@
 		header("Location: pedido.php");
 	}
 	
+	
 	$sql = "SELECT * FROM persona";
 	$result=$mysqli->query($sql);
 	

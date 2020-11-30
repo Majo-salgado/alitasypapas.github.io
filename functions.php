@@ -6,6 +6,9 @@
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die("Fatal Error");*/
+
+  
+  /*DATABASE*/
 $host="localhost";
 $port=3306;
 $socket="";
